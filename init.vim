@@ -18,6 +18,9 @@ Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 " Linters
 Plug 'dense-analysis/ale'
 
+" Autocompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 
