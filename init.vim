@@ -7,14 +7,17 @@ Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.4' }
 " On-demand loading
 Plug 'preservim/nerdtree', { 'on': 'NERDTreeToggle' }
 
-" Rust Syntax Highlighting
-Plug 'rust-lang/rust.vim'
-
+" Language Tools
+Plug 'sheerun/vim-polyglot'
 " Color Scheme 
 
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 " Initialize plugin system
 " - Automatically executes `filetype plugin indent on` and `syntax enable`.
+"
+" Linters
+Plug 'dense-analysis/ale'
+
 call plug#end()
 
 
